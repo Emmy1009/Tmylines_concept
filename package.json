@@ -1,0 +1,23 @@
+{
+  "name": "tmylines",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "EmmyGold",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./backend/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node backend/index.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
