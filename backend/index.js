@@ -8,7 +8,7 @@ import auth from "./routes/auth.js";
 import posts from "./routes/posts.js";
 
 import { createTable, adminTable } from "./config/db.js";
-const MODE = process.env.NODE_ENV === "production" ? "https://tmylines-00ep.onrender.com" : "http://localhost:3000"
+const MODE = process.env.NODE_ENV === "production" ? "https://tmylines-ex4l.onrender.com" : "http://localhost:3000"
 const app = express();
 const __dirname = path.resolve();
 app.use(
